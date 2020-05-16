@@ -30,8 +30,7 @@ cacheSolve <- function(x, ...) {
   inv<- solve(mat)
   x$setinv(inv)
   inv
-  
-  
 }
+
 
 
